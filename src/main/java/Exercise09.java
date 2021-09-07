@@ -15,8 +15,8 @@ public class Exercise09 {
 
         int i = Integer.parseInt(length); //Converting string into int.
         int j = Integer.parseInt(width);
-        int k = i*j; //Area m2 calculation.
-        double c = 350; //One gallon covers 350 m2.
+        int k = i*j; //Area f2 calculation.
+        double c = 350; //One gallon covers 350 f2.
         double g = k/c; //Calculating the amount of gallons needed.
         double r = Math.ceil(g); //Rounding to the next whole number.
 
